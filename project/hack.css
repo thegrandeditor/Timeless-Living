@@ -1,0 +1,238 @@
+ body{
+    background-color: bisque;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ /* 
+    font-size: 16px;
+    font-weight: bold; */
+h1{
+  text-transform: uppercase;
+}
+.navbar {
+  overflow: hidden;
+  background-color: bisque;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+   display: flex;
+   font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #070505;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar img{
+   width: 20%;
+   height: 50px;
+}
+
+
+.navbar a:hover {
+  background: #080606;
+  color: rgb(254, 250, 250);
+}
+
+main {
+ margin: 50px 2%; 
+  font-size: 16px;
+}
+  .main {
+ margin: 50px 2%; 
+  font-size: 16px;
+  color: black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+#about {
+  text-align: center;
+  align-content: center;
+  padding: 50px;
+  background-color: #f2f2f2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ #about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+  #calculate_bmi {
+  width: 40%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ .formbutton {
+  width: 20%;
+  background-color: #5204aa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formbutton:hover {
+  background-color: #030b04;
+  color: white;
+}
+
+
+#contact {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  margin: 4%;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #0b0404;
+}
+#contact ::placeholder{
+  color: #030b04;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#contact button:hover{
+   background-color: #030b04;
+  color: white;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #0c0a0a;
+}
+
+
+/* bmi session */
+
+.bmi h1, h2, h3, h4{
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.aboutstructure{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  margin-top: 30px;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+/* body::selection{
+  background-color: white;
+  color: black;
+} */
+/* 
+.bmi h1, h2, h3, h4, p::selection{
+  background-color: black;
+  color: white;
+} */
+
+figcaption{
+  color: #fefcfc;
+  background-color: black;
+  width: 33%;
+}
+
+aside{
+  background-color: black;
+  color: wheat;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* sorry ses */
+.apology {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.apology h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.apology p {
+  color: #666;
+  font-size: 16px;
+}
+
+.thanks {
+  text-align: center;
+  padding: 50px;
+  background-color: bisque;
+}
+
+.thanks h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.thanks p {
+  font-size: 18px;
+  color: #666;
+}
